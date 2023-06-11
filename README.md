@@ -3,7 +3,7 @@
 ***Note: This is an old project from Spring 2021 when I took DSCI 521 (Data Analysis and Interpretation).***
 
 ### Project Description
-Given audio features from the songs on the Billboard Hot 100 chart for 2010-2020, I use a shallow neural networks to predict which songs will be in the top 10. Then, I investigate which features yield the best model by implementing ExtraTreesClassifier, LASSO, and SVM. The neural networks with the best acccuracy are given from features selected by SVM and ExtraTreesClassifier. 
+Given audio features from the songs on the Billboard Hot 100 chart for 2010-2020, I use shallow neural networks to predict which songs will be in the top 10. Then, I investigate which features yield the best model by implementing ExtraTreesClassifier, LASSO, and SVM. The neural networks with the best acccuracy are given from features selected by SVM and ExtraTreesClassifier. 
 
 Songs are collected using a [Billboard API](https://github.com/guoguo12/billboard-charts) and audio features are collected using a [Spotify API](https://tekore.readthedocs.io/en/stable/). 
 
