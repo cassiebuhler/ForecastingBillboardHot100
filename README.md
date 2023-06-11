@@ -5,7 +5,7 @@
 ### Project Description
 Given audio features from the songs on the Billboard Hot 100 chart for 2010-2020, I use a shallow neural networks to predict which songs will be in the top 10. Then, I investigate which features yield the best model by implementing ExtraTreesClassifier, LASSO, and SVM. The neural networks with the best acccuracy are given from features selected by SVM and ExtraTreesClassifier. 
 
-Songs are collected using a [Billboard API](https://github.com/guoguo12/billboard-charts) and audio features are collected using a [Spotify API](https://tekore.readthedocs.io/en/stable/)
+Songs are collected using a [Billboard API](https://github.com/guoguo12/billboard-charts) and audio features are collected using a [Spotify API](https://tekore.readthedocs.io/en/stable/). 
 
 I have provided the data, however, if you'd like to use the 01-dataCollection script, you need to get access tokens from Spotify API. To do so, follow 
 <a href="https://developer.spotify.com/documentation/web-api/tutorials/getting-started" target="_blank" rel="noopener noreferrer">these instructions.</a> 
@@ -21,6 +21,7 @@ I have provided the data, however, if you'd like to use the 01-dataCollection sc
 #### Data
 - **Data/BillboardData2.csv:** Dataset given from 01-dataCollection.ipynb.
   - There are 4 entries with a blank genre column, so they are dropped in the analysis phase. 
+  - Overall there are 16 audio features for nearly 1100 songs. 
 
 #### Other
 - **Figures:** Folder containing the figures used in the presentation
